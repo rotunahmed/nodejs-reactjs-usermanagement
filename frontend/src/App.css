@@ -1,0 +1,40 @@
+.top-menu-panel{
+background: #E1E8ED;  /* fallback for old browsers */
+
+  height: 30px;
+}
+
+.top-menu-panel ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    clear: both;
+    margin-left: 20px;
+}
+
+.top-menu-panel ul li{
+    list-style: none;
+    float: left;
+}
+
+.top-menu-panel ul li a{ 
+text-decoration: none;
+    color: #293742;
+    padding: 7px 9px;
+    font-size: 13px;
+    display: block;
+    margin-right: 1px;
+}
+
+
+.top-menu-panel ul li a:hover{ 
+  color: #7157D9;
+}
+
+.active-link-router{
+  background: #ffffff;
+  color: #293742;
+}
+
+
+
