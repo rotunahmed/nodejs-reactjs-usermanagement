@@ -1,0 +1,33 @@
+{
+  "name": "rknsoftware",
+  "version": "1.0.0",
+  "description": "erp web and desktop application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "rotunahmed"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Rotun ahmed",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.8",
+    "body-parser": "^1.19.0",
+    "bookshelf": "^1.1.0",
+    "concurrently": "^5.1.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.20.9",
+    "knex-populate": "^2.1.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.2"
+  }
+}
